@@ -1,0 +1,85 @@
+/* Estilo Global */
+body {
+  background-color: rgb(147,21,39); /* Cor de fundo clara */
+  font-family: 'Roboto', sans-serif; /* Fonte mais moderna e clean */
+}
+
+/* Navegação */
+.navbar {
+  background-color: #343a40;
+  padding: 10px 20px;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  font-weight: bold;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: rgb(147,21,39); /* Cor de destaque */
+}
+
+/* Menu dropdown */
+.navbar-nav .dropdown-menu {
+  background-color: #343a40;
+  border: none;
+}
+
+.navbar-nav .dropdown-item {
+  color: #fff;
+}
+
+.navbar-nav .dropdown-item:hover {
+  background-color: rgb(147,21,39);
+  color: #343a40;
+}
+
+/* Botões do carousel */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  filter: invert(1);
+}
+
+/* Cards e containers */
+.container {
+  margin-top: 20px;
+}
+
+.container h1 {
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Agenda */
+#agenda h1 {
+  color: white;
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+/* Caixa com sombras suaves */
+.container .col-lg-6, .container .col-lg-8 {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  border-radius: 8px;
+}
+
+.container .col-lg-6:hover, .container .col-lg-8:hover {
+  transform: scale(1.05);
+}
+
+/* Estilo do rodapé */
+footer {
+  background-color: rgb(147,21,39);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
